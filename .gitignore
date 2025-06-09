@@ -1,0 +1,64 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules
+
+# Build and distribution
+dist
+dist-ssr
+build
+
+# Coverage reports
+coverage
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local environment files
+*.local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Miscellaneous
+.pnp
+.pnp.js
+.eslintcache
+.npm
+.yarn-integrity
+*.tgz
+*.tsbuildinfo
+.cache
+.next
+out
+*.pem
+
+# Chrome Extension specific
+chrome-profile
+
+# REPL history
+.node_repl_history
+
+# Snapshots
+**/__snapshots__/
+
+# Optional: OS-specific
+Thumbs.db
+ehthumbs.db
